@@ -30,9 +30,14 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
+      - name: Pin npm 9
+        run: |
+          npm install -g npm@9
+          npm --version
+
       - name: Install dependencies
         run: |
-          npm install --include=dev --no-audit --no-fund
+          npm ci
           test -x node_modules/.bin/astro
 
       - name: Build
