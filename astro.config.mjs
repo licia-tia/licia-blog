@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	site: 'https://licia-tia.github.io',
-	base: '/licia-blog',
+	site: 'https://blog.s-cry.com',
+	base: '/',
 	integrations: [mdx(), sitemap()],
 });

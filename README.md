@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 
-> 当前默认 Pages 地址配置为：`https://licia-tia.github.io/licia-blog/`
+> 当前默认地址配置为：`https://blog.s-cry.com/`
 
 ---
 
