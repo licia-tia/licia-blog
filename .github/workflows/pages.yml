@@ -37,6 +37,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          npm config set registry https://registry.npmjs.org/
           npm ci
           test -x node_modules/.bin/astro
 
