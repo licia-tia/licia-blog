@@ -60,19 +60,19 @@ h6 {
 	line-height: 1.2;
 }
 h1 {
-	font-size: 3.052em;
+	font-size: clamp(2rem, 4vw, 2.6rem);
 }
 h2 {
-	font-size: 2.441em;
+	font-size: clamp(1.5rem, 3vw, 2rem);
 }
 h3 {
-	font-size: 1.953em;
+	font-size: clamp(1.25rem, 2.4vw, 1.6rem);
 }
 h4 {
-	font-size: 1.563em;
+	font-size: 1.25rem;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: 1.1rem;
 }
 strong,
 b {
