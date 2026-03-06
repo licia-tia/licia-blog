@@ -2,7 +2,6 @@
 title: '从 0 到可访问：我如何把博客搭在 GitHub 上'
 description: '一次真实的搭建记录：Astro、GitHub Pages、CI、自定义域名，以及中间踩过的坑。'
 pubDate: 'Mar 06 2026'
-heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 这篇是实战复盘，记录我这次把博客从 0 搭起来的完整过程。
